@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[in properties qa loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[URL ishttps://lv.sportsdirect.com/]]>
+    </line>
+    <line>
+      <![CDATA[userName istestsports@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[password istest@sports]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49424" started-at="2019-11-21T16:01:20 EET" finished-at="2019-11-21T16:02:10 EET">
+    <groups>
+      <group name="1">
+        <method signature="SmokeTest.validCredentials()[pri:1, instance:Project.SmokeTest@75d3a5e0]" name="validCredentials" class="Project.SmokeTest"/>
+      </group> <!-- 1 -->
+      <group name="3">
+        <method signature="SmokeTest.search_Product()[pri:3, instance:Project.SmokeTest@75d3a5e0]" name="search_Product" class="Project.SmokeTest"/>
+      </group> <!-- 3 -->
+      <group name="4">
+        <method signature="SmokeTest.ShoppingCart_Summary()[pri:4, instance:Project.SmokeTest@75d3a5e0]" name="ShoppingCart_Summary" class="Project.SmokeTest"/>
+      </group> <!-- 4 -->
+      <group name="5">
+        <method signature="SmokeTest.DeleteItem()[pri:5, instance:Project.SmokeTest@75d3a5e0]" name="DeleteItem" class="Project.SmokeTest"/>
+      </group> <!-- 5 -->
+      <group name="6">
+        <method signature="SmokeTest.ShoppingCart_Address()[pri:6, instance:Project.SmokeTest@75d3a5e0]" name="ShoppingCart_Address" class="Project.SmokeTest"/>
+      </group> <!-- 6 -->
+      <group name="7">
+        <method signature="SmokeTest.ShoppingCart_Carrier()[pri:7, instance:Project.SmokeTest@75d3a5e0]" name="ShoppingCart_Carrier" class="Project.SmokeTest"/>
+      </group> <!-- 7 -->
+      <group name="sanity">
+        <method signature="SmokeTest.DeleteItem()[pri:5, instance:Project.SmokeTest@75d3a5e0]" name="DeleteItem" class="Project.SmokeTest"/>
+        <method signature="SmokeTest.ShoppingCart_Address()[pri:6, instance:Project.SmokeTest@75d3a5e0]" name="ShoppingCart_Address" class="Project.SmokeTest"/>
+        <method signature="SmokeTest.ShoppingCart_Carrier()[pri:7, instance:Project.SmokeTest@75d3a5e0]" name="ShoppingCart_Carrier" class="Project.SmokeTest"/>
+        <method signature="SmokeTest.ShoppingCart_Summary()[pri:4, instance:Project.SmokeTest@75d3a5e0]" name="ShoppingCart_Summary" class="Project.SmokeTest"/>
+        <method signature="SmokeTest.search_Product()[pri:3, instance:Project.SmokeTest@75d3a5e0]" name="search_Product" class="Project.SmokeTest"/>
+        <method signature="SmokeTest.validCredentials()[pri:1, instance:Project.SmokeTest@75d3a5e0]" name="validCredentials" class="Project.SmokeTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="49424" started-at="2019-11-21T16:01:20 EET" finished-at="2019-11-21T16:02:10 EET">
+      <class name="Project.SmokeTest">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:Project.SmokeTest@75d3a5e0]" name="loginToApp" is-config="true" duration-ms="10386" started-at="2019-11-21T16:01:10 EET" finished-at="2019-11-21T16:01:20 EET">
+          <reporter-output>
+            <line>
+              <![CDATA[URL ishttps://lv.sportsdirect.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="validCredentials()[pri:1, instance:Project.SmokeTest@75d3a5e0]" name="validCredentials" duration-ms="9344" started-at="2019-11-21T16:01:20 EET" description="login_Positive" finished-at="2019-11-21T16:01:30 EET">
+          <reporter-output>
+            <line>
+              <![CDATA[userName istestsports@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[password istest@sports]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validCredentials -->
+        <test-method status="PASS" signature="search_Product()[pri:3, instance:Project.SmokeTest@75d3a5e0]" name="search_Product" duration-ms="11855" started-at="2019-11-21T16:01:30 EET" description="search Product" finished-at="2019-11-21T16:01:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Product -->
+        <test-method status="PASS" signature="ShoppingCart_Summary()[pri:4, instance:Project.SmokeTest@75d3a5e0]" name="ShoppingCart_Summary" duration-ms="1461" started-at="2019-11-21T16:01:42 EET" description="Shopping Cart - Summary" finished-at="2019-11-21T16:01:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCart_Summary -->
+        <test-method status="PASS" signature="DeleteItem()[pri:5, instance:Project.SmokeTest@75d3a5e0]" name="DeleteItem" duration-ms="4153" started-at="2019-11-21T16:01:43 EET" description="Delete Item" finished-at="2019-11-21T16:01:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteItem -->
+        <test-method status="PASS" signature="ShoppingCart_Address()[pri:6, instance:Project.SmokeTest@75d3a5e0]" name="ShoppingCart_Address" duration-ms="20874" started-at="2019-11-21T16:01:47 EET" description="Shopping Cart - Address" finished-at="2019-11-21T16:02:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCart_Address -->
+        <test-method status="PASS" signature="ShoppingCart_Carrier()[pri:7, instance:Project.SmokeTest@75d3a5e0]" name="ShoppingCart_Carrier" duration-ms="1657" started-at="2019-11-21T16:02:08 EET" description="Shopping Cart - Carrier" finished-at="2019-11-21T16:02:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCart_Carrier -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Project.SmokeTest@75d3a5e0]" name="closeBrowser" is-config="true" duration-ms="1210" started-at="2019-11-21T16:02:10 EET" finished-at="2019-11-21T16:02:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Project.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
